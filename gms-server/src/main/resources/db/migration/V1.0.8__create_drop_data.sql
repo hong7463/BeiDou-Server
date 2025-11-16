@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `drop_data`
     UNIQUE KEY (`dropperid`, `itemid`),
     KEY `mobid` (`dropperid`),
     INDEX (dropperid, itemid)
-) ENGINE = MyISAM
+) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   AUTO_INCREMENT = 1;
 

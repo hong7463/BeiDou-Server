@@ -1,3 +1,5 @@
+ALTER TABLE drop_data ENGINE=InnoDB;
+
 CREATE TABLE IF NOT EXISTS `temp_data`
 (
     `dropperid`        INT(11) NOT NULL,
